@@ -18,6 +18,7 @@ Upload inside of your theme / template:
 - + inside of  th_yourtheme/custom/particles
                                - /OwlCarousel-atom.html.twig
                                - /OwlCarousel-atom.yaml
+                                                            
     Rezults will be :
     + th_yourtheme/custom/particles/OwlCarousel-atom.html.twig
     + th_yourtheme/custom/particles/OwlCarousel-atom.yaml
