@@ -1,0 +1,26 @@
+name: OwlCarousel 2.2
+description: Jquery OwlCarousel for Gantry5.
+type: atom
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Add Owl Carousel to your Gantry 5.
+      default: true
+
+    _note:
+      type: separator.note
+      class: alert alert-info
+      content: 'This Atom load <a href="http://owlcarousel2.github.io/OwlCarousel2/" target="_blank"> Jquery OwlCarousel for Gantry5, version v2.2</a>. Designed by <a href="https://themehow.com/" target="_blank">ThemeHow.Com</a>.'
+
+    jslocation:
+      type: select.select
+      label: JS Location
+      description: Select position where Owl Carousel will be charged. Recomanded is on 'Footer' (Before to close the body).
+      placeholder: 'Select...'
+      default: footer
+      options:
+        footer: Footer
+        head: Head
